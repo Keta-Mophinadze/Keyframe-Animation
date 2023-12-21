@@ -1,0 +1,87 @@
+.background-image {
+    background-image: url("../Images/Background.jpg");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/* Solar System */
+.position {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.sun-galaxy {
+    width: 180px;
+    animation: sun-rotate 25s linear infinite;
+}
+@keyframes sun-rotate {
+    from {transform: rotate(0deg) translate(0);}
+    to {transform: rotate(360deg) translate(0);}
+}
+.mercury {
+    width: 13px;
+    animation: mercury-motion 2.5s linear infinite;
+}
+@keyframes mercury-motion {
+    from {transform: rotate(0deg) translate(110px);}
+    to {transform: rotate(360deg) translate(110px);} 
+}
+.venus {
+    width: 15px;
+    animation: venus-motion 3s linear infinite;
+}
+@keyframes venus-motion {
+    from {transform: rotate(0deg) translate(130px);}
+    to {transform: rotate(360deg) translate(130px);} 
+}
+.earth {
+    width: 18px;
+    animation: earth-motion 4s linear infinite;
+}
+@keyframes earth-motion {
+    from {transform: rotate(0deg) translate(155px);}
+    to {transform: rotate(360deg) translate(155px);} 
+}
+.mars {
+    width: 19px;
+    animation: mars-motion 5s linear  infinite;
+}
+@keyframes mars-motion {
+    from {transform: rotate(0deg) translate(180px);}
+    to {transform: rotate(360deg) translate(180px);} 
+}
+.jupiter {
+    width: 25px;
+    animation: jupiter-motion 6.5s linear  infinite;
+}
+@keyframes jupiter-motion {
+    from {transform: rotate(0deg) translate(210px);}
+    to {transform: rotate(360deg) translate(210px);} 
+}
+.saturn {
+    width: 50px; 
+    animation: saturn-motion 8.5s linear infinite;
+}
+@keyframes saturn-motion {
+    from {transform: rotate(0deg) translate(255px);}
+    to {transform: rotate(360deg) translate(255px);}  
+}
+.uranus {
+    width: 30px;
+    animation: uranus-motion 11s linear  infinite;
+}
+@keyframes uranus-motion {
+    from {transform: rotate(0deg) translate(295px);}
+    to {transform: rotate(360deg) translate(295px);}  
+}
+.neptune {
+    width: 36px;
+    animation: neptune-motion 14s linear  infinite;
+}
+@keyframes neptune-motion {
+    from {transform: rotate(0deg) translate(335px);}
+    to {transform: rotate(360deg) translate(335px);}
+}
